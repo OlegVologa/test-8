@@ -1,6 +1,6 @@
 function findTotalAmountPurchasesThreeMostCashBuyers(u) {
   let totalAmountOfPurchases = 0;
-  purchaseAmountByCustomers.forEach(i => {
+  u.forEach(i => {
     totalAmountOfPurchases += i;
   });
   return totalAmountOfPurchases;
